@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Task Manager - July/Aug 2024</h1>
+        <div class="selector">
+            <label for="week">Choose Week:</label>
+            <select id="week" onchange="updateTasks()">
+                <option value="week1">Week 1 (July 1 - July 7)</option>
+                <option value="week2">Week 2 (July 8 - July 14)</option>
+                <option value="week3">Week 3 (July 15 - July 21)</option>
+                <option value="week4">Week 4 (July 22 - July 28)</option>
+                <option value="week5">Week 5 (July 29 - August 4)</option>
+                <option value="week6">Week 6 (August 5 - August 11)</option>
+            </select>
+        </div>
+        <div class="selector">
+            <label for="name">Choose Name:</label>
+            <select id="name" onchange="updateTasks()">
+                <option value="Yashu">Yashu</option>
+                <option value="Peter">Peter</option>
+                <option value="Rohan">Rohan</option>
+                <option value="Sneha">Sneha</option>
+                <option value="Muzammil">Muzammil</option>
+                <option value="Nikhil">Nikhil</option>
+            </select>
+        </div>
+        <div id="tasks">
+            <!-- Tasks will be displayed here -->
+        </div>
+        <div id="message">
+            <!-- Completion message will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Include script.js for client-side functionality -->
+    <script src="script.js"></script>
+</body>
+</html>

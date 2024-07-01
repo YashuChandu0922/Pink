@@ -1,0 +1,68 @@
+/* Body and Container Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Header Styles */
+h1 {
+    color: #cc0066; /* Dark pink */
+    text-align: center;
+}
+
+/* Selector Styles */
+.selector {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #cc0066; /* Dark pink */
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #cc0066; /* Dark pink */
+    border-radius: 5px;
+}
+
+/* Task List Styles */
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffd9eb; /* Light pink */
+    border: 1px solid #cc0066; /* Dark pink */
+    border-radius: 5px;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Completion Message Styles */
+#message {
+    margin-top: 20px;
+}
+
+#message div {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #ffe6f2; /* Lighter pink */
+    color: #cc0066; /* Dark pink */
+    border: 1px solid #cc0066; /* Dark pink */
+    border-radius: 5px;
+}
